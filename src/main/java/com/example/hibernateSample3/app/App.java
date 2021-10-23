@@ -13,6 +13,8 @@ public class App {
 	}
 
 	public static void createPerson() {
+		
+		System.out.println("GIT");
 		System.out.println("*********************Creating Person*************");
 		Person person = new Person();
 		person.setName("John Doe");
