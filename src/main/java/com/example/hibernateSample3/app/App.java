@@ -33,6 +33,8 @@ public class App {
 	}
 	
 	public static void display(long id) {
+		
+		System.out.println("GIT Changes");
 		System.out.println("*********************Displaying Person*************");
 		
 		PersonDao p = new PersonDao();
